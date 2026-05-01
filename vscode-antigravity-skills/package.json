@@ -1,0 +1,43 @@
+{
+  "name": "antigravity-skills",
+  "displayName": "Antigravity Skills",
+  "description": "Local dynamic skill manager for Antigravity AI",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./src/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "antigravity.insertSkill",
+        "title": "Insert Skill"
+      },
+      {
+        "command": "antigravity.syncSkills",
+        "title": "Sync Skills from Github"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "antigravity-explorer",
+          "title": "Antigravity Skills",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "antigravity-explorer": [
+        {
+          "id": "antigravity.skillsView",
+          "name": "Available Skills"
+        }
+      ]
+    }
+  }
+}
