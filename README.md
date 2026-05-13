@@ -19,7 +19,14 @@ Bu usul orqali **token xarajatlari 90% gacha tejaladi** va AI'ning ishlash tezli
    ```bash
    git clone https://github.com/USER_NAME/repo-name.git
    ```
-2. Terminalni (PowerShell) oching va sinxronizatsiyani ishga tushiring:
+2. Terminalni oching va sinxronizatsiyani ishga tushiring:
+
+   **Python orqali (Tavsiya etiladi - universal):**
+   ```bash
+   python3 sync.py
+   ```
+
+   **PowerShell orqali (Windows uchun):**
    ```powershell
    powershell -ExecutionPolicy Bypass -File .\sync.ps1
    ```
@@ -27,7 +34,8 @@ Bu usul orqali **token xarajatlari 90% gacha tejaladi** va AI'ning ishlash tezli
 ## 📂 Loyiha Strukturasi
 - `skills/`: Tozalangan va saralangan barcha `.md` fayllar.
 - `skills_index.json`: AI uchun mo'ljallangan markazlashgan qidiruv indeksi.
-- `sync.ps1`: PowerShell yordamida yozilgan asosiy sinxronizatsiya va filtrlash skripti.
+- `sync.py`: Python yordamida yozilgan universal sinxronizatsiya skripti.
+- `sync.ps1`: PowerShell yordamida yozilgan sinxronizatsiya skripti.
 
 ## 🤝 Hissa qo'shish
 Loyihani yanada takomillashtirish bo'yicha takliflaringiz bo'lsa, "Pull Request" yuboring yoki "Issue" oching.
