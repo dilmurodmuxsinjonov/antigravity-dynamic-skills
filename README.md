@@ -17,7 +17,7 @@ Bu usul orqali **token xarajatlari 90% gacha tejaladi** va AI'ning ishlash tezli
 
 1. Ushbu repozitoriyni klonlang:
    ```bash
-   git clone https://github.com/USER_NAME/repo-name.git
+   git clone https://github.com/dilmurodmuxsinjonov/antigravity-dynamic-skills.git
    ```
 2. Terminalni (PowerShell) oching va sinxronizatsiyani ishga tushiring:
    ```powershell
